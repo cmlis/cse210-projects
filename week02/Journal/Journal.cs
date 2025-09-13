@@ -47,13 +47,14 @@ public class Journal
         foreach (Entry entry in _entries)
         {
 
-
+            // Here I validate if the user entered a valid rating 
             if (entry.Answer == "1" || entry.Answer == "2" || entry.Answer == "3" ||
                 entry.Answer == "4" || entry.Answer == "5" || entry.Answer == "6" ||
                 entry.Answer == "7" || entry.Answer == "8" || entry.Answer == "9" ||
                  entry.Answer == "10")
             {
 
+            // I call the new method
                 entry.Advice = GetMoodAdvice(int.Parse(entry.Answer));
 
             }  
@@ -105,6 +106,7 @@ public class Journal
 
     } public string GetMoodAdvice(int level)
     {
+        //I use switch to make things easier
         switch (level)
         {
             case 1: return "Feeling rough? Take a hug break and call someone you trust.";

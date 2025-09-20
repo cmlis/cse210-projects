@@ -1,0 +1,8 @@
+
+https://stackoverflow.com/questions/75121857/replacing-a-string-with-an-equal-amount-of-underscores
+
+https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types
+
+https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.select?view=net-9.0
+
+https://stackoverflow.com/questions/273313/randomize-a-listt

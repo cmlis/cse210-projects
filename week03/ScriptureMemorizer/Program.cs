@@ -60,7 +60,7 @@ class Program
         {
             Console.Clear();
             Console.WriteLine(selectedScripture.GetDisplayText());
-            Console.WriteLine("\nPress Enter to hide more words or type 'quit' to exit.");
+           // Console.WriteLine("\nPress Enter to hide more words or type 'quit' to exit.");
             string input = Console.ReadLine();
 
             if (input?.ToLower() == "quit")
